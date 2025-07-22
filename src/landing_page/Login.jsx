@@ -33,7 +33,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://zerodha-backend-lovat.vercel.app/login",
+        "https://zerodha-backend-t99f.onrender.com/login",
         inputValue,
         { withCredentials: true }
       );
