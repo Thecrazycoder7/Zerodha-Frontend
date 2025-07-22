@@ -42,7 +42,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         const userString = encodeURIComponent(JSON.stringify(data.user));
-        window.location.href = `http://localhost:5174?user=${userString}`;
+        window.location.href = `https://zerodha-dashboard-ochre.vercel.app?user=${userString}`;
       } else {
         handleError(message);
       }
