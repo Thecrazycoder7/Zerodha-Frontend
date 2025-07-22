@@ -42,11 +42,12 @@ const Signup = () => {
     }
 
     try {
-      const { data } = await axios.post(
+      const { data } = await await axios.post(
         "https://zerodha-backend-lovat.vercel.app/signup",
         inputValue,
         { withCredentials: true }
       );
+
 
       const { success, message } = data;
 
