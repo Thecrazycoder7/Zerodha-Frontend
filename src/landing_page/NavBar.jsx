@@ -7,6 +7,7 @@ const NavBar = () => {
       className="navbar navbar-expand-lg"
       style={{
         position: "fixed",
+        width: "100%",
         backgroundColor: "#fff",
         borderBottom: "1px solid #ddd",
       }}
